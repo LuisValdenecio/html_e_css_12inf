@@ -1,0 +1,41 @@
+/*selector elemento*/
+body {
+    background-color : lightblue;
+}
+
+/*Selector descendente*/
+footer p {
+    color : red;
+}
+
+/*Selector adjacente*/
+h2+h3 {
+    color : green;
+}
+
+/*Selector descendente directo*/
+section > h2 {
+    color : blue;
+}
+
+/*Selector atributo*/
+a[href="#"] {
+    font-size : 30px;
+    color : orange;
+}
+
+/*selector primeiro ou último filho*/
+li:first-child {
+    background-color: red;
+}
+
+li:last-child {
+    background-color: black;
+}
+
+/*Selector enésimo filho*/
+p:nth-child(3) {
+    background : lightgrey;
+}
+
+
