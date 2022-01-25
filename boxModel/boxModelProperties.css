@@ -1,0 +1,37 @@
+div {
+    /* Isto */
+    margin: 20px;
+    /* É o mesmo que: */
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+    /* Isto: */
+    padding: 10px 20px;
+    /* É o mesmo que: */
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-left:20px;
+}
+
+h1 {
+    /* Isto: */ 
+    margin: 20px 10px 5px;
+    /* É o mesmo que:*/
+    margin-top:20px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-left:10px;
+}   
+
+h2 {
+    /* This: */
+    margin: 10px 20px;
+    /* Is the same as: */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
