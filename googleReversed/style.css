@@ -21,6 +21,7 @@ input[type="text"] {
 
 input[type="submit"] {
     border : none;
+    cursor: pointer;
 }
 
 /*as cores do google por cada letra*/
