@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#google_section span {
+    font-size : 100px;
+    font-weight: bold;
+}
+
+section, footer, input {
+    padding : 10px;
+    margin : 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+    border-radius : 50px;
+    border : solid 1px lightgrey;
+}
+
+input[type="submit"] {
+    border : none;
+}
+
+/*as cores do google por cada letra*/
+span:nth-child(1) {
+    color : blue;
+}
+
+span:nth-child(2) {
+    color : red;
+}
+
+span:nth-child(3) {
+    color : orange;
+}
+
+span:nth-child(4) {
+    color : blue;
+}
+
+span:nth-child(5) {
+    color : green;
+}
+
+span:nth-child(6) {
+    color : red;
+} 
