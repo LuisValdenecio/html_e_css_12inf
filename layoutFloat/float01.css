@@ -1,0 +1,29 @@
+header {
+    background: red;
+}
+
+article {
+    background: green;
+    width: 65%;
+    float : right;
+}
+
+aside {
+    float: left;
+    background: yellow;
+    width: 35%;
+    /*
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    */
+}
+
+/*
+section {
+    overflow: hidden;    
+}
+*/
+
+footer {
+    background: brown;
+}
