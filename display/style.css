@@ -6,5 +6,5 @@ div {
 }
 
 #tres, #quatro {
-    display: inline;
+    display: inline-block;
 }
