@@ -2,27 +2,39 @@ header {
     background: red;
 }
 
-article {
-    background: green;
-    width: 65%;
+#article00 {
+    background-color: yellow;
+}
+
+#article01 {
+    background-color: tomato;
+}
+
+#article11 {
+    background-color: green;
+}
+
+#article12 {
+    background-color: indigo;
+}
+
+#clear {
+    clear : both;
+}
+
+.article_left {
     float : right;
+    width: 50%;
 }
 
-aside {
-    float: left;
-    background: yellow;
-    width: 35%;
-    /*
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
-    */
+.article_right {
+    float : left;
+    width: 50%;
 }
 
-/*
 section {
     overflow: hidden;    
 }
-*/
 
 footer {
     background: brown;
