@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+ 
+a {
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #ddaa00;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover, a:focus, a:active {
+    background-color: #ffcc22;
+    color: black;
+}
