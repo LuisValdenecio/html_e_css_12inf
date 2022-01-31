@@ -1,6 +1,7 @@
 nav {
     display: flex;
     border-bottom: 1px solid #ccc;
+    justify-content: center;
 }
  
 a {
@@ -16,3 +17,15 @@ a:hover, a:focus, a:active {
     background-color: #ffcc22;
     color: black;
 }
+
+* {
+    outline: 1px #ccc solid;
+    margin: 10px;
+    padding: 10px;
+   }
+   body, nav, main, article {
+    display: flex;
+   }
+   body, article {
+    flex-direction: column;
+   }

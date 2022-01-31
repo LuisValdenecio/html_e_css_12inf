@@ -1,0 +1,47 @@
+div {
+    width: 100px;
+    height: 100px;
+    color:white;
+  }
+  
+.container {
+    display: flex;
+    /*FLEX DIRECTION - can reverse etc*/
+    flex-direction: column;
+    background: #F60009;
+    height: 500px;
+    width: 500px;
+}
+
+.primeiro {
+    display: flex;
+    background: #53007A;
+    /*VERTICAL*/
+    align-items: center;
+    /*HORIZONTAL*/
+    justify-content: space-around;
+    /*ORDER  -1 first, highest last */
+    order: 1;
+}
+
+.segundo {
+    background: #FC9709;
+}
+
+.terceiro {
+    background: #A800DF;
+    align-self: flex-end;
+}
+
+.quarto {
+    background: #8BE7E6;
+}
+
+.quinto {
+    background: #93B112;
+}
+
+.sexto {
+    background: #E6F0BA;
+    order: -1;
+}
