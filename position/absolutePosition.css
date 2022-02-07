@@ -14,7 +14,7 @@ body {
 .wrapper {
     width: 500px;
     height: 400px;
-    background: #e3e3e3;
-   
+    background: blue;
+    
     margin-bottom: 10px;
 }

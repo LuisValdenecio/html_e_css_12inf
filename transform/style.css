@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+#transformado {
+    transform: translate(200px, 100px) rotate(45deg) scale(3,1);
+}

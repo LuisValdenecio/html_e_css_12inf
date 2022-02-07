@@ -4,8 +4,8 @@ header {
 
 article {
     background: green;
-    width: 65%;
-    /*clear : both;*/
+    width: 100%;
+    clear : both;
 }
 
 aside {
