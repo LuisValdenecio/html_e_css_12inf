@@ -1,0 +1,29 @@
+/*esta regra determina a aparência inicial da bola*/
+#bola {
+    width: 100px;
+    height: 100px;
+    margin-top: 400px;
+    border-radius : 100px;
+    background-color : red;
+    animation : mudaformas 6s infinite; /*definição da animação no elemento div#bola*/
+}
+
+@keyframes mudaformas {
+    0% 100% {
+        transform : translate(0,0);
+        border-radius : 100px;
+        background-color : red;
+    }
+
+    33% {
+        transform : translate(200px, -400px) scale(0.5,0.5);
+        border-radius : 0px;
+        background-color : blue;
+    }
+
+    66% {
+        transform : translate(200px, 0) rotate(45deg) scale(2,2);
+        border-radius : 0px;
+        background-color : green;
+    }
+}
